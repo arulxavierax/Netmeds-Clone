@@ -1,0 +1,487 @@
+/*:default classes*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+a:link {
+  /*color: red;*/
+  background-color: transparent;
+  text-decoration: none;
+}
+.nav {
+  width: 100%;
+  background-color: rgb(50, 174, 177);
+  display: flex;
+  padding: 35px 80px;
+}
+.flex {
+  display: flex;
+}
+.center {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+#payment-offer-section > h3,
+#previes-order-section > h3,
+#trend-section > h3 {
+  margin-left: 30px;
+}
+/* Default css end */
+
+/* 1st nav css start */
+
+.nav1 {
+  /*border: 2px solid red;*/
+  width: 20%;
+}
+.nav2 {
+  /*border: 2px solid red;*/
+  width: 50%;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.nav3 {
+  width: 30%;
+  color: #fff;
+  justify-content: space-around;
+}
+.nav3 > p > i {
+  font-weight: bold;
+  margin: 10px 10px;
+  font-size: 20px;
+}
+.nav2 > select {
+  width: 20%;
+  height: 50px;
+  border: 0px;
+  border-radius: 10px;
+  padding: 3px;
+  font-size: 12px;
+}
+.nav2 > input {
+  width: 75%;
+  height: 50px;
+  border: 0px;
+}
+/* 2nd nav section start */
+.nav-section-2 {
+  background-color: rgb(50, 174, 177);
+  justify-content: space-around;
+  padding: 0px 150px 15px;
+  color: #fff;
+  font-weight: bold;
+}
+.nav-section-2 div > img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+/* 2nd nav section end */
+/* 1st nav css end */
+
+/* category section start */
+.category-section {
+  justify-content: space-around;
+  padding: 10px 150px 0px;
+  font-size: 14px;
+}
+/* category section end */
+
+/* slider section start */
+.slider-section {
+  margin: 10px;
+}
+/* slider section end */
+
+/* offer section start */
+.offer-section {
+  width: 100%;
+  justify-content: space-between;
+  padding: 40px 30px;
+}
+.offer-section > .flex {
+  border: 2px solid red;
+  width: 33.33%;
+}
+.offer-section > div > .flex > img {
+  width: 60px;
+  margin: 0px 15px;
+}
+.offer-section > div > .flex > div > p,
+.previes-box2 > div > p {
+  color: green;
+  font-weight: 500;
+}
+.offer-section > div > span {
+  font-size: 27px;
+}
+/* offer section end */
+/*Payment partner offer css start*/
+#payment-offer-slider {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+  padding: 10px 50px;
+}
+#payment-offer-slider > span {
+  position: absolute;
+  top: 25%;
+  font-size: 30px;
+  text-align: center;
+  color: gray;
+  cursor: pointer;
+  z-index: 1;
+  margin: 0px -20px;
+  width: 30px;
+  height: 30px;
+}
+#payment-offer-slider > span:nth-of-type(2) {
+  left: 96%;
+  text-align: right;
+}
+#payment-offer-slider > section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: left;
+  overflow-x: auto;
+}
+#payment-offer-slider > section::-webkit-scrollbar {
+  visibility: hidden;
+}
+#payment-offer-slider > section > div {
+  min-width: 33.33%;
+  height: auto;
+  position: relative;
+  left: 0;
+  color: black;
+  transition: 0.5s;
+  margin: 8px;
+  justify-content: center;
+  align-items: center;
+}
+.payment-offer > img {
+  width: 50px;
+  height: 50px;
+}
+.payment-offer > div {
+  padding: 10px 80px 10px 20px;
+}
+.payment-offer > div > p {
+  font-size: 11px;
+}
+.payment-offer > div > h5 {
+  font-size: 13px;
+}
+/*Payment partner offer css end*/
+
+/*<!-- previes order section -->*/
+#previes-order-section {
+  width: 100%;
+}
+.previes-box1 {
+  width: 50%;
+  justify-content: space-between;
+  padding: 10px 25px;
+}
+.previes-box2 {
+  width: 50%;
+  justify-content: space-between;
+  padding: 10px 30px;
+}
+/*<!-- previes order css end -->*/
+#trend {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+  padding: 10px 50px;
+}
+#trend > section > div img {
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#trend > span {
+  position: absolute;
+  top: 40%;
+  font-size: 30px;
+  text-align: center;
+  color: gray;
+  cursor: pointer;
+  z-index: 1;
+  margin: 0px -20px;
+  width: 30px;
+  height: 30px;
+}
+#trend > span:nth-of-type(2) {
+  left: 97%;
+  text-align: right;
+}
+#trend > section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: left;
+  overflow-x: auto;
+}
+#trend > section::-webkit-scrollbar {
+  visibility: hidden;
+}
+#trend > section > div {
+  min-width: 33.33%;
+  height: auto;
+  position: relative;
+  left: 0;
+  color: black;
+  transition: 0.5s;
+  margin: 8px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* sign up css start */
+#signup-section {
+  width: 1000px;
+  margin: auto;
+  display: flex;
+}
+.box1 {
+  width: 50%;
+}
+.box2 {
+  width: 50%;
+  padding: 40px 90px;
+}
+.otp-heading {
+  color: rgb(36, 174, 177);
+  font-size: 11px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: -4px;
+}
+.box2 > p:nth-child(2) {
+  color: rgba(73, 75, 75, 0.74);
+  font-size: 14px;
+}
+.box2 div {
+  justify-content: center;
+  align-items: center;
+  /*padding: 20px;*/
+  margin-top: -17px;
+}
+.box2 > form > div > strong {
+  border-right: 1px solid black;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin-right: 4px;
+  padding-right: 4px;
+}
+input::placeholder {
+  color: rgba(0, 0, 0, 0.199);
+}
+input:focus,
+input {
+  outline: none;
+  width: 100%;
+  border: 0px;
+  height: 17px;
+}
+#otp-form > input:last-child {
+  width: 100%;
+  background-color: rgb(36, 174, 177);
+  color: #fff;
+  font-weight: bold;
+  border: 0px;
+  height: 40px;
+  margin-top: 27px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.sign-up-otp {
+  color: rgb(36, 174, 177);
+  font-size: 11px;
+  font-weight: 700;
+  margin-top: 30px;
+}
+.box2 > .social-btns {
+  margin-top: 100px;
+  justify-content: space-between;
+}
+.box2 > .social-btns > .social-btn {
+  border: 2px solid rgba(153, 151, 151, 0.37);
+  border-radius: 4px;
+  width: 140px;
+  height: 44px;
+  justify-content: space-around;
+}
+.box2 > .social-btns > .social-btn > p {
+  font-weight: 500;
+  margin-top: 10px;
+  font-size: 13px;
+  color: rgba(114, 113, 113, 0.753);
+}
+/* sign up css end */
+
+/* otp css */
+#verify-otp {
+  margin-top: 20px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+#number-otp {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.507);
+}
+#enter-otp {
+  border: 1px solid black;
+  height: 40px;
+  padding: 10px;
+}
+#change-number {
+  font-size: 12px;
+  color: red;
+  cursor: pointer;
+}
+#otp-form > div {
+  justify-content: space-between;
+}
+#otpOut {
+  color: red;
+  font-size: 13px;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+#category-shop-section {
+  justify-content: space-around;
+  text-align: center;
+  margin: 20px 0px;
+}
+#category-shop-section > div > img,
+#category-shop-section > div > p {
+  padding: 10px;
+  font-weight: 500;
+}
+/* shop by cat */
+#ShopByCat-section {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+  padding: 10px 50px;
+}
+#ShopByCat-section > span {
+  position: absolute;
+  top: 50%;
+  font-size: 30px;
+  text-align: center;
+  color: gray;
+  cursor: pointer;
+  z-index: 1;
+  margin: 0px -20px;
+  width: 30px;
+  height: 30px;
+}
+#ShopByCat-section > span:nth-of-type(2) {
+  left: 96%;
+  text-align: right;
+}
+#ShopByCat-section > section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: left;
+  overflow-x: auto;
+}
+#ShopByCat-section > section::-webkit-scrollbar {
+  visibility: hidden;
+}
+#ShopByCat-section > section > div {
+  min-width: 20%;
+  height: auto;
+  position: relative;
+  left: 0;
+  color: black;
+  transition: 0.5s;
+  margin: 8px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#ShopByCat-section > section > div > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#ShopByCat-section > section > div > p {
+  font-weight: 500;
+  font-size: 17px;
+  color: #0b1219;
+  letter-spacing: 2px;
+  margin: 10px;
+}
+.explore-section {
+  justify-content: space-around;
+}
+#explore-beauty-section {
+  /*background-color: rgb(239, 66, 129);*/
+  background: linear-gradient(
+    to bottom,
+    /*#ffffff 0%,
+    #ffffff 50%,*/ rgb(239, 66, 129) 70%,
+    #fff 30%
+  );
+  margin: 70px 0px;
+}
+#explore-beauty-section > div > h3 {
+  padding: 30px;
+  color: #fff;
+}
+.explore-section > div {
+  /*border: 2px solid black;*/
+  text-align: center;
+  font-weight: 500;
+  margin: 10px;
+}
+.explore-section > div > img {
+  width: 250px;
+  border-radius: 10px;
+}
+#bg-section {
+  background: linear-gradient(
+    to bottom,
+    /*#ffffff 0%,
+    #ffffff 50%,*/ rgb(138, 143, 149) 70%,
+    #fff 30%
+  ) !important;
+  margin: 70px 0px;
+}
+#bg-section > div > h3 {
+  padding: 30px;
+  color: #fff;
+}
+#home-text {
+  margin: 0px 30px;
+}
+.category-div > span {
+  color: green;
+  font-weight: 500;
+}
+#box > div > ul > a {
+  /*border: 2px solid red;*/
+  /*margin: 20px;*/
+  line-height: 30px;
+}
+
+#logo{
+height: 80px;
+margin-right: -20px;  
+}
+
