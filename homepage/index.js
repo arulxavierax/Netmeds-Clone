@@ -34,7 +34,7 @@ function navbar() {
         </p>
         <p>
           <i class="fa fa-user-circle"></i>
-          <span onclick="window.location.href='signup.html'">Sign In</span> /
+          <span onclick="window.location.href='../sign_Up/signup.html'">Sign In</span> /
           <span onclick="window.location.href='signup.html'"> Sign up</span>
         </p>
       </div>
