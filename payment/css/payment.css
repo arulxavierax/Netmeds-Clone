@@ -1,0 +1,390 @@
+#main {
+    background-color: rgba(246, 246, 247, 255);
+}
+
+#navbar {
+    background-color: #24AEB1;
+    display: flexbox;
+    height: 90px;
+    width: 100%;
+}
+
+#logo1 {
+    height: 60px;
+    width: 168px;
+    justify-content: center;
+    margin-left: 34.5px;
+    margin-top: 10px;
+}
+
+#section {
+    width: auto;
+    margin-left: 159.5px;
+    height: 1500px;
+    display: flex;
+}
+
+#templet {
+    height: 65px;
+    width: 980px;
+    background-color: #151B39;
+    margin: 24px 0px 16px;
+    padding: 0px 0px 0px 24px;
+    border-radius: 8px;
+    display: inline-flex;
+    margin-left: 159.5px;
+}
+
+#shortline {
+    color: #ffffff;
+    font-size: 24px;
+    padding: 16px 0px;
+    font-family: Lato, sans-serif;
+    font-weight: 700;
+}
+
+#short_logo {
+    padding-left: 530px;
+    padding-top: 20px;
+    row-gap: 20px;
+}
+
+.logo_1 {
+    font-size: 11px;
+    color: #ffffff;
+    font-family: lato, sans-serif;
+}
+
+
+/* #product {
+font-family: Lato, Helvetica, sans-serif;
+font-size: 13px;
+color: rgba(21, 27, 57, .6);
+margin: 0px 6px 16px;
+text-transform: uppercase;
+border: red solid 1px;
+height: 40px;
+width: 662px;
+} */
+
+#voucher {
+    font-size: 12px;
+    width: 680px;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    font-family: lato, sans-serif;
+    color: #151b39;
+    display: inline-block;
+}
+
+#checkbox {
+    height: 15px;
+    width: 15px;
+    content: "";
+    display: inline-block;
+    margin-top: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#detail_section {
+    height: 90px;
+    width: 240px;
+    display: block;
+    background: #fff;
+    padding: 16px 8px;
+    margin: 10px 0px 0px 40px;
+    /* margin-left: 725px;
+    margin-bottom: 800px; */
+    position: relative;
+    font-family: Lato, sans-serif;
+    color: rgba(21, 27, 57, .6);
+    font-size: 12px;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+
+#paytm {
+    width: 680px;
+    height: 120px;
+    margin-top: 40px;
+    background: #fff;
+    border-radius: 8px;
+    color: rgba(21, 27, 57, .6)
+}
+
+.menu {
+    font-size: 12px;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+#paytm_logo {
+    vertical-align: middle;
+    border-style: none;
+    height: 32px;
+    width: 32px;
+    margin-left: 20px;
+}
+
+#paytm_line {
+    display: inline-block;
+}
+
+.span_paytm {
+    margin-left: 10px;
+    color: black;
+    font-size: 14px;
+}
+
+#span_link {
+    cursor: pointer;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: lato;
+    font-size: 13px;
+    color: #ef4281;
+    line-height: 16px;
+    margin-left: 500px;
+}
+
+#reward {
+    width: 680px;
+    height: 140px;
+    margin-top: 65px;
+    background: #fff;
+    border-radius: 8px;
+    color: rgba(21, 27, 57, .6)
+}
+
+#reward_logo {
+    width: 32px;
+    height: 32.2px;
+    vertical-align: middle;
+    border-style: none;
+    height: 32px;
+    width: 32px;
+    margin-left: 20px;
+}
+
+.round_check {
+    height: 20px;
+    width: 20px;
+    content: "";
+    display: inline-block;
+    line-height: 16px;
+    margin-left: 430px;
+}
+
+.regular_text {
+    margin-left: 50px;
+}
+
+#wallet {
+    width: 680px;
+    height: 150px;
+    margin-top: 30px;
+    background: #fff;
+    border-radius: 8px;
+    color: rgba(21, 27, 57, .6)
+}
+
+#wallet_logo {
+    width: 32px;
+    height: 32.2;
+    vertical-align: middle;
+    border-style: none;
+    height: 32px;
+    width: 32px;
+    margin-left: 25px;
+}
+
+#span_link2 {
+    cursor: pointer;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: Lato;
+    font-size: 13px;
+    color: #ef4281;
+    line-height: 16px;
+    margin-left: 360px;
+}
+
+#phonepay_logo {
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+    border-style: none;
+    margin-left: 25px;
+}
+
+#other_payment {
+    width: 680px;
+    height: 140px;
+    margin-top: 30px;
+    background: #ffffff;
+    border-radius: 8px;
+    color: rgba(21, 27, 57, .6);
+}
+
+#round_check1 {
+    height: 20px;
+    width: 20px;
+    content: "";
+    display: inline-block;
+    line-height: 16px;
+    margin-left: 485px;
+}
+
+#upi {
+    width: 680px;
+    height: 140px;
+    margin-top: 30px;
+    background: #ffffff;
+    border-radius: 8px;
+    color: rgba(21, 27, 57, .6);
+}
+
+#upi_logo {
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+    border-style: none;
+    margin-left: 25px;
+}
+
+#round_check2 {
+    height: 20px;
+    width: 20px;
+    content: "";
+    display: inline-block;
+    line-height: 16px;
+    margin-left: 485px;
+}
+
+#add_card {
+    font-family: Lato;
+    font-weight: 700;
+    color: #24aeb1;
+    letter-spacing: 1px;
+    font-size: 14px;
+    text-decoration: none;
+    margin-left: 250px;
+    margin-top: -100px;
+}
+
+#line {
+    text-align: center;
+    border-top: 1px solid rgba(21, 27, 57, .1);
+    margin-top: 36px;
+    margin-bottom: 35px;
+    width: 100%;
+}
+
+#netbanking {
+    display: flex;
+    width: 680px;
+    height: 210px;
+    margin-top: 30px;
+    border-radius: 8px;
+    background: #ffffff;
+    color: rgba(21, 27, 57, .6);
+    cursor: pointer;
+    justify-content: space-between;
+}
+
+#logo {
+    margin-top: 60px;
+    width: 42px;
+    height: 42px;
+    margin-left: -125px;
+    border-style: none;
+}
+
+.p_tag {
+    font-size: 10px;
+    margin-left: -135px;
+}
+
+#net_bank {
+    height: 32px;
+    background: url(/msassets/images/icons/select-bg.svg) 100% 45%/30px 60px no-repeat #fff;
+    width: 250px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    font-family: Lato;
+    font-size: 14px;
+    color: rgba(21, 27, 57, .8);
+    padding: 0 8px;
+    margin-top: 16px;
+    margin-left: -650px;
+}
+
+#cash_on {
+    width: 680px;
+    height: 140px;
+    margin-top: 30px;
+    background: #ffffff;
+    border-radius: 8px;
+    color: rgba(21, 27, 57, .6);
+}
+
+#cash_logo {
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 32px;
+    height: 32px;
+}
+
+.span_cash {
+    margin-left: 15px;
+    font-size: 14px;
+    color: #151b39;
+    line-height: 32px;
+}
+
+#cash_font {
+    margin-left: 60px;
+}
+
+#round_check3 {
+    height: 20px;
+    width: 20px;
+    content: "";
+    display: inline-block;
+    line-height: 16px;
+    margin-left: 455px;
+}
+
+#small_font {
+    font-family: Lato;
+    font-size: 10px;
+    color: rgba(21, 27, 57, .6);
+    font-style: italic;
+    margin: 8px 16px 16px;
+}
+
+#new_link {
+    cursor: pointer;
+    text-decoration: none;
+    color: #007bff;
+    -webkit-transition: .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    font-size: 10px;
+}
+
+#last_font {
+    margin-top: 49px;
+    font-size: 9px;
+}
+
+#mrp {
+    font-family: lato, sans-serif;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 24px;
+    padding: 0;
+    text-align: center;
+}
