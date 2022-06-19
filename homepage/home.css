@@ -1,0 +1,557 @@
+/*:default classes*/
+
+/* * {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+} */
+/* a:link {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+} */
+
+.nav {
+  width: 100%;
+  background-color: rgb(50, 174, 177);
+  display: flex;
+  padding: 35px 80px;
+  /* border: 1px solid black; */
+}
+
+.flex {
+  display: flex;
+}
+.center {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+/* #payment-offer-section > h3,
+#previes-order-section > h3,
+#trend-section > h3 {
+  margin-left: 30px;
+}  */
+
+/* Default css end */
+
+/* 1st nav css start */
+
+.nav1 {
+  /* border: 2px solid red; */
+  width: 20%;
+  cursor: pointer;
+}
+
+.nav2 {
+  /* border: 2px solid rgb(246, 49, 19); */
+  width: 50%;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.nav3 {
+  width: 30%;
+  color: #fff;
+  justify-content: space-around;
+  /* border: 2px solid red; */
+}
+.nav3 > p > i {
+  font-weight: bold;
+  margin: 10px 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.nav3 > p > span {
+  cursor: pointer;
+}
+.nav2 > select {
+  width: 20%;
+  height: 50px;
+  border: 0px;
+  border-radius: 10px;
+  padding: 3px;
+  font-size: 12px;
+}
+.nav2 > input {
+  width: 75%;
+  height: 50px;
+  border: 0px;
+}
+
+/* 2nd nav section start */
+.nav-section-2 {
+  background-color: rgb(50, 174, 177);
+  justify-content: space-around;
+  padding: 0px 150px 15px;
+  color: #fff;
+  font-weight: bold;
+  /* border: 2px solid red; */
+}
+.nav-section-2 div > img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+/* 2nd nav section end */
+/* 1st nav css end */
+/* category section starts */
+.category-section {
+  justify-content: space-around;
+  padding: 10px 150px 0px;
+  font-size: 14px;
+  cursor: pointer;
+}
+/* category section end */
+
+.slider-section {
+  cursor: pointer;
+}
+
+/* offer section start */
+.offer-section {
+  width: 100%;
+  justify-content: space-between;
+  padding: 40px 30px;
+  cursor: pointer;
+  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 20px; */
+}
+.offer-section > .flex {
+  border: 2px solid red;
+  width: 33.33%;
+}
+.offer-section > div > .flex > img {
+  width: 60px;
+  margin: 0px 15px;
+}
+.offer-section > div > .flex > div > p,
+.previes-box2 > div > p {
+  color: green;
+  font-weight: 500;
+}
+.offer-section > div > span {
+  font-size: 27px;
+}
+
+/* offer section end */
+
+/*Payment partner offer css start*/
+
+#payment-offer-section h3 {
+  margin-left: 25px;
+}
+#payment-offer-slider {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+  padding: 10px 50px;
+}
+#payment-offer-slider > span {
+  position: absolute;
+  top: 25%;
+  font-size: 30px;
+  text-align: center;
+  color: gray;
+  cursor: pointer;
+  z-index: 1;
+  margin: 0px -20px;
+  width: 30px;
+  height: 30px;
+}
+#payment-offer-slider > span:nth-of-type(2) {
+  left: 96%;
+  text-align: right;
+}
+#payment-offer-slider > section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: left;
+  overflow-x: auto;
+}
+#payment-offer-slider > section::-webkit-scrollbar {
+  visibility: hidden;
+}
+#payment-offer-slider > section > div {
+  min-width: 33.33%;
+  height: auto;
+  position: relative;
+  left: 0;
+  color: black;
+  transition: 0.5s;
+  margin: 8px;
+  justify-content: center;
+  align-items: center;
+}
+.payment-offer > img {
+  width: 50px;
+  height: 50px;
+}
+.payment-offer > div {
+  padding: 10px 80px 10px 20px;
+  /* border: 1px solid black; */
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.payment-offer > div > p {
+  font-size: 11px;
+}
+.payment-offer > div > h5 {
+  font-size: 13px;
+}
+/*Payment partner offer css end*/
+
+/*<!-- previes order section -->*/
+#previes-order-section {
+  width: 100%;
+}
+.previes-box1 {
+  width: 50%;
+  justify-content: space-between;
+  padding: 10px 25px;
+}
+.previes-box2 {
+  width: 50%;
+  justify-content: space-between;
+  padding: 10px 30px;
+}
+.previes-box1 h5 {
+  color: #24aeb1;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.previes-box2 button {
+  background-color: #24aeb1;
+  color: #ffff;
+  border: none;
+  padding: 5px 25px 7px 25px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+/*<!-- previes order css end -->*/
+
+#trend-section h3 {
+  margin-left: 25px;
+}
+
+#trend {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+  padding: 10px 50px;
+}
+#trend > section > div img {
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#trend > span {
+  position: absolute;
+  top: 40%;
+  font-size: 30px;
+  text-align: center;
+  color: gray;
+  cursor: pointer;
+  z-index: 1;
+  margin: 0px -20px;
+  width: 30px;
+  height: 30px;
+}
+#trend > span:nth-of-type(2) {
+  left: 97%;
+  text-align: right;
+}
+#trend > section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: left;
+  overflow-x: auto;
+}
+#trend > section::-webkit-scrollbar {
+  visibility: hidden;
+}
+#trend > section > div {
+  min-width: 33.33%;
+  height: auto;
+  position: relative;
+  left: 0;
+  color: black;
+  transition: 0.5s;
+  margin: 8px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+#category-shop-section {
+  justify-content: space-around;
+  text-align: center;
+  margin: 20px 0px;
+}
+#category-shop-section > div > img,
+#category-shop-section > div > p {
+  padding: 10px;
+  font-weight: 500;
+}
+
+#category-shop-section > div {
+  /* border: 1px solid black; */
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+  cursor: pointer;
+}
+.category-div2 {
+  width: 230px;
+}
+.mom {
+  margin-top: 50px;
+}
+
+/* arrivals starts */
+
+#arrivals-section h3 {
+  margin-left: 25px;
+}
+
+#arrivals {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+  padding: 10px 50px;
+}
+#arrivals > section > div img {
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#arrivals > span {
+  position: absolute;
+  top: 40%;
+  font-size: 30px;
+  text-align: center;
+  color: gray;
+  cursor: pointer;
+  z-index: 1;
+  margin: 0px -20px;
+  width: 30px;
+  height: 30px;
+}
+#arrivals > span:nth-of-type(2) {
+  left: 97%;
+  text-align: right;
+}
+#arrivals > section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: left;
+  overflow-x: auto;
+}
+#arrivals > section::-webkit-scrollbar {
+  visibility: hidden;
+}
+#arrivals > section > div {
+  min-width: 33.33%;
+  height: auto;
+  position: relative;
+  left: 0;
+  color: black;
+  transition: 0.5s;
+  margin: 8px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* brand css */ /* categories in focus css & personal care css */
+
+#top-brand-section {
+  justify-content: space-around;
+  text-align: center;
+  margin: 20px 0px;
+}
+#top-brand-section > div > img,
+#top-brand-section > div > p {
+  padding: 10px;
+  font-weight: 500;
+}
+
+#top-brand-section > div {
+  /* border: 1px solid black; */
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+  width: 260px;
+  cursor: pointer;
+}
+#top-brand-section > div > p + p {
+  color: green;
+}
+
+.cate-focus {
+  margin-left: 25px;
+}
+
+.care {
+  margin-left: 25px;
+}
+.mom {
+  margin-top: 50px;
+}
+
+/* explore beauty css */
+
+.explore-section {
+  justify-content: space-around;
+}
+#explore-beauty-section {
+  /*background-color: rgb(239, 66, 129);*/
+  background: linear-gradient(
+    to bottom,
+    /*#ffffff 0%,
+      #ffffff 50%,*/ rgb(239, 66, 129) 70%,
+    #fff 30%
+  );
+  margin: 70px 0px;
+}
+#explore-beauty-section > div > h3 {
+  padding: 30px;
+  color: #fff;
+}
+.explore-section > div {
+  /*border: 2px solid black;*/
+  text-align: center;
+  font-weight: 500;
+  margin: 10px;
+}
+.explore-section > div > img {
+  width: 250px;
+  border-radius: 10px;
+}
+
+/* explore beauty css end */
+
+/* best in beauty css */
+
+#bg-section {
+  background: linear-gradient(
+    to bottom,
+    /*#ffffff 0%,
+      #ffffff 50%,*/ rgb(138, 143, 149) 70%,
+    #fff 30%
+  ) !important;
+  margin: 70px 0px;
+}
+#bg-section > div > h3 {
+  padding: 30px;
+  color: #fff;
+}
+#home-text {
+  margin: 0px 30px;
+}
+.category-div > span {
+  color: green;
+  font-weight: 500;
+}
+#box > div > ul > a {
+  /*border: 2px solid red;*/
+  /*margin: 20px;*/
+  line-height: 30px;
+}
+.explore-section > div {
+  cursor: pointer;
+}
+
+/* best in beauty css end*/
+
+/* advice experts css */
+
+.advice-section {
+  justify-content: space-around;
+}
+#advice-health-section {
+  /*background-color: rgb(239, 66, 129);*/
+  background: linear-gradient(
+    to bottom,
+    /*#ffffff 0%,
+    #ffffff 50%,*/ rgb(239, 66, 129) 70%,
+    #fff 30%
+  );
+  margin: 70px 0px;
+  height: 300px;
+}
+#advice-health-section > div > h3 {
+  padding: 30px;
+  color: #fff;
+}
+.advice-section > div {
+  /* border: 2px solid black; */
+  text-align: center;
+  font-weight: 500;
+  margin: 10px;
+  width: 400px;
+  height: 210px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+}
+.advice-section > div > img {
+  width: 354px;
+  border-radius: 10px;
+}
+.advice-box p {
+  text-align: left;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+/* advice experts css end */
+
+strong {
+  font-weight: 10px;
+  color: rgba(11, 18, 25, 0.75);
+}
+h6 + p,
+h6 + p + p,
+h6 + p + p + p,
+h6 + p + p + p + p {
+  font-family: var(--bs-body-font-family);
+  font-size: 15px;
+  letter-spacing: normal;
+  margin-bottom: 8px;
+  /* color: rgb(5, 60, 227); */
+  color: rgba(11, 18, 25, 0.75);
+}
+#home-text {
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+}
+
+/* #main{
+    border: 1px solid black;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+
+  }
+  .box{
+    border: 1px solid red;
+    height: 290px;
+    width: 20%;
+    cursor: pointer;
+    margin-left: 10px;
+  } 
+
+  .col{
+    border: 1px solid black;
+    height: 300px;
+    width: 100%;
+    gap: 10px;
+    row-gap: 10px;
+    column-gap: 10px;
+  } */
