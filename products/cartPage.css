@@ -1,0 +1,245 @@
+body{
+    background-color: #f3f3f3;
+}
+#border{
+    width: 80%;
+    margin: auto;
+    
+}
+#border>h1{
+    font-size: 24px;
+    font-family: 'Lato',sans-serif;
+    color: #151B39;
+}
+#content{
+
+    display: flex;
+    justify-content: space-around;
+    /* width: 60%; */
+    margin: auto;
+}
+#section1{
+    width: 65%;
+}
+#section2{
+    width: 30%;
+    
+}
+#slideshow{
+
+    margin-bottom: 20px;
+}
+#slideshow>img{
+    width: 100%;
+    border-radius: 10px; ;
+}
+#details{
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 4px;
+}
+#details>h4{
+font-size: 14px;
+color: #151B3999;
+font-family: 'Lato',sans-serif;
+}
+#details>div>div{
+    display: flex;
+    justify-content:space-around;
+    margin: 10px;
+}
+#details>div>div>div>h3{
+    font-family: 'Lato',sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    color: #212529;
+    
+}
+#details>div>div>div>p{
+    font-family: 'Lato',sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    color: #151B3999;
+}
+#details>div>div>h3{
+    font-family: 'Lato',sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    color: #EF4281;
+}
+#details>div>div>select{
+    border-radius: 4px;
+    width: 10%;
+    height: 60%;
+    font-family: 'Lato',sans-serif;
+    font-size: 12px;
+    color: #151B3999;
+    padding: 5px;
+}
+#section1>h3{
+    font-size: 16px;
+    color: #151B3999;
+    font-family: 'Lato',sans-serif;
+    font-weight: 900;
+}
+#details>div>div>p{
+    font-size: 12px ;
+    font-family: 'Lato',sans-serif;
+    color: #151B39;
+    
+}
+#details>div>div>button{
+    color: #151B3999;
+    font-size: 12px;
+    font-family: 'Lato',sans-serif;
+    background-color: #f6f6f7;
+    border: 0;
+    margin: 5px;
+    font-weight: bolder;
+}
+#details>div>div>img{
+    width: 10%;
+}
+#details>div>div>p{
+   margin: 20px;
+}
+#paymentappend>div{
+    display: flex;
+    justify-content: space-evenly ;
+}
+#paymentappend>div>button{
+    font-family: 'Lato',sans-serif;
+    font-size: 14px;
+    background-color:#24AEB1;
+    color:#FFFFFF;
+    border-radius: 4px;
+    padding: 11px 11px 11px 11px;
+    display: block;
+    margin: auto;
+    border: 0;
+    width: 30%;
+}
+
+#selling{
+    display: grid;
+    grid-template-columns: repeat(4,23%);
+    gap: 20px;
+    padding: 20px;
+    
+}
+#selling>div{
+    background-color:#FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+}
+#selling>div>img{
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+#selling>div>h3{
+    font-family: 'Lato',sans-serif;
+    font-size: 14px;
+    color: #151B39;
+}
+#selling>div>h4{
+    font-family: 'Lato',sans-serif;
+    font-size: 13px;
+    color: #151B39;
+    margin-bottom: 0px;
+}
+#selling>div>div{
+    display: flex;
+    height: 50px;
+}
+#selling>div>div>h6{
+    font-family: 'Lato',sans-serif;
+    font-size: 14px;
+    color: #6F7284;
+    display: flex;
+}
+#selling>div>div>h5{
+    font-family: 'Lato',sans-serif;
+    font-size: 16px;
+    color: #EF4281;
+}
+#selling>div>p{
+    font-family: 'Lato',sans-serif;
+    font-size: 13px;
+    color: #151B39;
+}
+#selling>div>button{
+    font-family: 'Lato',sans-serif;
+    font-size: 14px;
+    background-color:#24AEB1;
+    color:#FFFFFF;
+    border-radius: 4px;
+    padding: 11px 11px 11px 11px;
+    display: block;
+    margin: auto;
+    border: 0;
+    width: 100%;
+    font-weight:bolder;
+}
+#selling+div{
+    background-color: #FFFFFF;
+    padding: 20px;
+}
+#selling+div>h3{
+    font-size: 16px;
+    font-family: 'Lato',sans-serif;
+    color: #151B3999;
+}
+#selling+div>p{
+    font-size: 12px;
+    font-family: 'Lato',sans-serif;
+    color: #151B3999;
+}
+
+#promo{
+    background-color: #FFFFFF;
+    padding: 20px;
+}#promo>p{
+    font-size: 12px;
+    font-family: 'Lato',sans-serif;
+    color: #151B3999;
+    font-weight: bold;
+}
+#promo>input{
+    font-size: 15px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+#promo>button{
+    padding: 5px;
+    font-family:sans-serif;
+    border: 0;
+    background-color: #FFFFFF;
+}
+#payment{
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin-top: 20px;
+}
+#payment>h6{
+    font-size: 12px;
+    font-family: 'Lato',sans-serif;
+    font-weight: bold;
+    color: #151B3999;
+}
+#paymentappend>h5{
+    font-size: 14px;
+    font-family: 'Lato',sans-serif;
+    color: #151B39;
+}
+#paymentappend>div>h4{
+    font-size: 18px;
+    font-family: 'Lato',sans-serif;
+    color: #151B39;
+}
+#payment+div>p{
+    font-size: 10px;
+    font-family: 'Lato',sans-serif;
+    color: #151B3999;
+}
